@@ -1,0 +1,82 @@
+#abcd a.nav-link{
+    background-color: white;
+    color:  var(--bs-nav-pills-link-active-bg);
+}
+.nav-pills .nav-link.active{
+    color: var(--bs-nav-pills-link-active-bg);
+    background-color: white;
+}
+#bcda a.nav-link{
+    background-color:var(--bs-nav-pills-link-active-bg) ;
+    color: white;
+}
+.h{
+    font-size: 5rem;
+    margin-left:29%;
+    color: red;
+}
+.hh{
+    margin-left: 35%;
+    font-size: 2rem;
+    color: blue;
+}
+.thi img{
+    width: 1000px;
+    height: 400px;
+}
+.thi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp{
+    color:red;
+    margin-top:27px;
+    margin-bottom: 16px;
+}
+.tu{
+    margin-left: 150px;
+}h4{
+    color: blue;
+}
+@media screen and (max-width: 600px){
+    h1.h {
+        font-size: 3rem;
+        color: red; 
+        margin-left: 0%;
+        
+    }
+    .hh{
+        margin-left: 0%;
+        font-size: 20px;
+        color: blue;
+    }
+    header.d-flex.justify-content-center.py-3{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+        justify-content: left !important;
+    }
+    .container{
+        width: 400px;
+    }
+    hr{
+        width: 400px;
+    }
+    .thi img{
+        width: 300px;
+        height: 300px;
+    }
+    .pp{
+        color:red;
+        margin-top:27px;
+        margin-bottom: 16px;
+    }
+    .tu{
+        margin-left: 0px;
+    }
+    h4{
+        font-size: 18px ;
+        margin-bottom: 20px;
+    }
+   
+}
